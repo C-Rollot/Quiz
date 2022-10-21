@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url(polices/quicksand/Quicksand-Regular.otf);
+}
+
+body {
+    font-family: Quicksand;
+    color: white;
+    background-image: url('images/greyback.jpg');
+}
+
+#intro {
+    text-align: center;
+}
+
+#questions {
+    margin-top: 50px;
+}
+
+#capitales, #dates {
+    text-align:center;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+input {
+    font-family: Quicksand;
+    background-color: grey;
+    color: white;
+    border-radius: 20px;
+    border-style: none;
+}
+
+input:hover {
+    color: grey;
+    background-color: white;
+    transition: 0.25s;
+}
+
+button {
+    font-family: Quicksand;
+    font-size: 20px;
+    background-color: grey;
+    color: white;
+    border-radius: 20px;
+    border-style: none;
+}
+
+button:hover {
+    color: grey;
+    background-color: white;
+    transition: 0.25s;
+}
+
+#copyright {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 150px;
+}
+
+#question1, #question2, #question3, #question4, #question5, #question6, #question7, #question8, #question9, #question10 {
+    text-align: center;
+    font-size: 30px;
+}
+
+#question2, #question3, #question4, #question5, #question6, #question7, #question8, #question9, #question10 {
+    display: none;
+}

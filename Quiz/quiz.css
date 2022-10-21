@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url(polices/quicksand/Quicksand-Regular.otf);
+}
+
+body {
+    font-family: Quicksand;
+    color: white;
+    background-image: url('images/greyback.jpg');
+}
+
+#intro {
+    text-align: center;
+}
+
+#questions {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#capitales, #dates {
+    text-align:center;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+button {
+    font-family: Quicksand;
+    background-color: grey;
+    color: white;
+    border-radius: 20px;
+    border-style: none;
+}
+
+button:hover {
+    color: grey;
+    background-color: white;
+    transition: 0.25s;
+}
+
+#copyright {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 150px;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="quiz2.css">
+</head>
+
+<body>
+
+<div id="intro">
+    <h1>QUIZ</h1>
+
+    <p>Bienvenue! Répondez à une série de questions pour tester vos connaissances :)</p>
+</div>
+
+<div id="questions">
+    <div id="capitales">
+        <!--<h2>Capitales</h2>
+        <p>Commençons avec quelques questions simples sur les différentes capitales autour du globe.</p>-->
+
+        <div id="question1">
+            <h2>Question 1</h2>
+            <h3>Quelle est la capitale de la France?</h3>
+                <input type="text" id="q1">
+                <button onclick="nextQuestionOne()" id="next-question1">Valider</button>
+        </div>
+
+        <div id="question2">
+            <h2>Question 2</h2>
+            <h3>Quelle est la capitale du Royaume-Uni?</h3>
+                <input type="text" id="q2">
+                <button onclick="nextQuestionTwo()" id="next-question2">Valider</button>
+        </div>
+
+        <div id="question3">
+            <h2>Question 3</h2>
+            <h3>Quelle est la capitale de l'Italie?</h3>
+                <input type="text" id="q3">
+                <button onclick="nextQuestionThree()" id="next-question3">Valider</button>
+        </div>
+
+        <div id="question4">
+            <h2>Question 4</h2>
+            <h3>Quelle est la capitale du Japon?</h3>
+                <input type="text" id="q4">
+                <button onclick="nextQuestionFour()" id="next-question4">Valider</button>
+        </div>
+
+        <div id="question5">
+            <h2>Question 5</h2>
+            <h3>Quelle est la capitale de l'Islande?</h3>
+                <input type="text" id="q5">
+                <button onclick="nextQuestionFive()" id="next-question5">Valider</button>
+        </div>
+    </div>
+
+    <div id="dates">
+        <!--<h2>Dates</h2>
+        <p>Continuons, avec cette fois des dates à retrouver!</p>-->
+
+        <div id="question6">
+            <h2>Question 6</h2>
+            <h3>En quelle année a été signée la Constitution des Etats-Unis?</h3>
+                <input type="text" id="q6">
+                <button onclick="nextQuestionSix()" id="next-question6">Valider</button>
+        </div>
+
+        <div id="question7">
+            <h2>Question 7</h2>
+            <h3>En quelle année s'est tenu le tout premier Grand Prix de Formule 1?</h3>
+                <input type="text" id="q7">
+                <button onclick="nextQuestionSeven()" id="next-question7">Valider</button>
+        </div>
+
+        <div id="question8">
+            <h2>Question 8</h2>
+            <h3>En quelle année est sorti le film Top Gun au cinéma?</h3>
+                <input type="text" id="q8">
+                <button onclick="nextQuestionEight()" id="next-question8">Valider</button>
+        </div>
+
+        <div id="question9">
+            <h2>Question 9</h2>
+            <h3>En quelle année le Brésil a remporté sa dernière Coupe du Monde de football?</h3>
+                <input type="text" id="q9">
+                <button onclick="nextQuestionNine()" id="next-question9">Valider</button>
+        </div>
+
+        <div id="question10">
+            <h2>Question 10</h2>
+            <h3>En quelle année Usain Bolt a-t-il pris sa retraite sportive?</h3>
+                <input type="text" id="q10">
+                <button onclick="validateQ10(), endQuiz()" id="next-question10">Terminer</button>
+        </div>
+    </div>
+</div>
+
+
+<footer>
+    <div id="copyright">
+        <p>Oisif Man, Oisif Code, 2022, tous droits réservés.</p>
+    </div>
+</footer>
+
+
+<script src="quiz2.js"></script>
+
+</body>
+</html>
